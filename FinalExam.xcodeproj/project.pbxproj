@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		33380DA82459EFA500A790ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33380DA72459EFA500A790ED /* main.cpp */; };
+		33380DB02459EFDA00A790ED /* MyCircularLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33380DAE2459EFDA00A790ED /* MyCircularLinkedList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		33380DA42459EFA500A790ED /* FinalExam */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FinalExam; sourceTree = BUILT_PRODUCTS_DIR; };
 		33380DA72459EFA500A790ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		33380DAE2459EFDA00A790ED /* MyCircularLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyCircularLinkedList.cpp; sourceTree = "<group>"; };
+		33380DAF2459EFDA00A790ED /* MyCircularLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyCircularLinkedList.hpp; sourceTree = "<group>"; };
+		33380DB12459EFF700A790ED /* Theory.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Theory.rtf; path = ../../DataStructureFinalExam/DataStructureFinalExam/Theory/Theory.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,10 @@
 		33380DA62459EFA500A790ED /* FinalExam */ = {
 			isa = PBXGroup;
 			children = (
+				33380DB12459EFF700A790ED /* Theory.rtf */,
 				33380DA72459EFA500A790ED /* main.cpp */,
+				33380DAE2459EFDA00A790ED /* MyCircularLinkedList.cpp */,
+				33380DAF2459EFDA00A790ED /* MyCircularLinkedList.hpp */,
 			);
 			path = FinalExam;
 			sourceTree = "<group>";
@@ -120,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33380DA82459EFA500A790ED /* main.cpp in Sources */,
+				33380DB02459EFDA00A790ED /* MyCircularLinkedList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
